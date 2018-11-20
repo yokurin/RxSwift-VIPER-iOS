@@ -15,6 +15,10 @@
 		AEFA2E5721A3CA0A000828A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEFA2E5621A3CA0A000828A4 /* Assets.xcassets */; };
 		AEFA2E5A21A3CA0A000828A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFA2E5821A3CA0A000828A4 /* LaunchScreen.storyboard */; };
 		AEFA2E6521A3CA0A000828A4 /* RxSwiftVIPERTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFA2E6421A3CA0A000828A4 /* RxSwiftVIPERTests.swift */; };
+		AEFA2E7221A3CD95000828A4 /* Interactorable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFA2E7121A3CD95000828A4 /* Interactorable.swift */; };
+		AEFA2E7421A3CDB0000828A4 /* Presenterable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFA2E7321A3CDB0000828A4 /* Presenterable.swift */; };
+		AEFA2E7621A3CDD0000828A4 /* Routerable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFA2E7521A3CDD0000828A4 /* Routerable.swift */; };
+		AEFA2E7821A3CDE2000828A4 /* Viewable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFA2E7721A3CDE2000828A4 /* Viewable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +47,10 @@
 		AEFA2E6021A3CA0A000828A4 /* RxSwiftVIPERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSwiftVIPERTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEFA2E6421A3CA0A000828A4 /* RxSwiftVIPERTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftVIPERTests.swift; sourceTree = "<group>"; };
 		AEFA2E6621A3CA0A000828A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEFA2E7121A3CD95000828A4 /* Interactorable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactorable.swift; sourceTree = "<group>"; };
+		AEFA2E7321A3CDB0000828A4 /* Presenterable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenterable.swift; sourceTree = "<group>"; };
+		AEFA2E7521A3CDD0000828A4 /* Routerable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routerable.swift; sourceTree = "<group>"; };
+		AEFA2E7721A3CDE2000828A4 /* Viewable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viewable.swift; sourceTree = "<group>"; };
 		CB29CF3B45FAFB14FB32995E /* Pods-RxSwiftVIPERTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftVIPERTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftVIPERTests/Pods-RxSwiftVIPERTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,6 +108,7 @@
 			children = (
 				AEFA2E4F21A3CA09000828A4 /* AppDelegate.swift */,
 				AEFA2E5121A3CA09000828A4 /* ViewController.swift */,
+				AEFA2E7021A3CD6B000828A4 /* Protocols */,
 				AEFA2E6F21A3CD36000828A4 /* Resources */,
 			);
 			path = RxSwiftVIPER;
@@ -123,6 +132,17 @@
 				AEFA2E5B21A3CA0A000828A4 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		AEFA2E7021A3CD6B000828A4 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				AEFA2E7121A3CD95000828A4 /* Interactorable.swift */,
+				AEFA2E7321A3CDB0000828A4 /* Presenterable.swift */,
+				AEFA2E7521A3CDD0000828A4 /* Routerable.swift */,
+				AEFA2E7721A3CDE2000828A4 /* Viewable.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		B4EF853ED07C6E18AF51C1A3 /* Pods */ = {
@@ -349,7 +369,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEFA2E5221A3CA09000828A4 /* ViewController.swift in Sources */,
+				AEFA2E7221A3CD95000828A4 /* Interactorable.swift in Sources */,
+				AEFA2E7421A3CDB0000828A4 /* Presenterable.swift in Sources */,
 				AEFA2E5021A3CA09000828A4 /* AppDelegate.swift in Sources */,
+				AEFA2E7821A3CDE2000828A4 /* Viewable.swift in Sources */,
+				AEFA2E7621A3CDD0000828A4 /* Routerable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
