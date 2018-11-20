@@ -25,6 +25,16 @@
 		AEFA2E8321A3CF12000828A4 /* RxHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFA2E8221A3CF12000828A4 /* RxHelpers.swift */; };
 		AEFA2E8521A3CF25000828A4 /* CollectionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFA2E8421A3CF25000828A4 /* CollectionExtension.swift */; };
 		AEFA2E8721A3CF49000828A4 /* SessionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFA2E8621A3CF49000828A4 /* SessionExtension.swift */; };
+		AEFA2E8D21A3CFA7000828A4 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFA2E8B21A3CFA7000828A4 /* ListViewController.swift */; };
+		AEFA2E9021A3CFD8000828A4 /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEFA2E8F21A3CFD8000828A4 /* ListViewController.xib */; };
+		AEFA2E9221A3CFEA000828A4 /* ListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFA2E9121A3CFEA000828A4 /* ListInteractor.swift */; };
+		AEFA2E9421A3CFFE000828A4 /* ListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFA2E9321A3CFFE000828A4 /* ListPresenter.swift */; };
+		AEFA2E9621A3D015000828A4 /* ListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFA2E9521A3D015000828A4 /* ListRouter.swift */; };
+		AEFA2E9821A3D040000828A4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFA2E9721A3D040000828A4 /* DetailViewController.swift */; };
+		AEFA2E9A21A3D069000828A4 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEFA2E9921A3D069000828A4 /* DetailViewController.xib */; };
+		AEFA2E9C21A3D075000828A4 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFA2E9B21A3D075000828A4 /* DetailPresenter.swift */; };
+		AEFA2E9E21A3D07E000828A4 /* DetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFA2E9D21A3D07E000828A4 /* DetailInteractor.swift */; };
+		AEFA2EA021A3D08C000828A4 /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFA2E9F21A3D08C000828A4 /* DetailRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +73,16 @@
 		AEFA2E8221A3CF12000828A4 /* RxHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxHelpers.swift; sourceTree = "<group>"; };
 		AEFA2E8421A3CF25000828A4 /* CollectionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionExtension.swift; sourceTree = "<group>"; };
 		AEFA2E8621A3CF49000828A4 /* SessionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionExtension.swift; sourceTree = "<group>"; };
+		AEFA2E8B21A3CFA7000828A4 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		AEFA2E8F21A3CFD8000828A4 /* ListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
+		AEFA2E9121A3CFEA000828A4 /* ListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListInteractor.swift; sourceTree = "<group>"; };
+		AEFA2E9321A3CFFE000828A4 /* ListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPresenter.swift; sourceTree = "<group>"; };
+		AEFA2E9521A3D015000828A4 /* ListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRouter.swift; sourceTree = "<group>"; };
+		AEFA2E9721A3D040000828A4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		AEFA2E9921A3D069000828A4 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		AEFA2E9B21A3D075000828A4 /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		AEFA2E9D21A3D07E000828A4 /* DetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInteractor.swift; sourceTree = "<group>"; };
+		AEFA2E9F21A3D08C000828A4 /* DetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRouter.swift; sourceTree = "<group>"; };
 		CB29CF3B45FAFB14FB32995E /* Pods-RxSwiftVIPERTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftVIPERTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftVIPERTests/Pods-RxSwiftVIPERTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,6 +143,7 @@
 				AEFA2E7921A3CE1B000828A4 /* Apis */,
 				AEFA2E7021A3CD6B000828A4 /* Protocols */,
 				AEFA2E8121A3CEF5000828A4 /* Extensions */,
+				AEFA2E8821A3CF74000828A4 /* Modules */,
 				AEFA2E6F21A3CD36000828A4 /* Resources */,
 			);
 			path = RxSwiftVIPER;
@@ -185,6 +206,39 @@
 				AEFA2E8621A3CF49000828A4 /* SessionExtension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AEFA2E8821A3CF74000828A4 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				AEFA2E8921A3CF84000828A4 /* List */,
+				AEFA2E8A21A3CF8D000828A4 /* Detail */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		AEFA2E8921A3CF84000828A4 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				AEFA2E8B21A3CFA7000828A4 /* ListViewController.swift */,
+				AEFA2E9321A3CFFE000828A4 /* ListPresenter.swift */,
+				AEFA2E9121A3CFEA000828A4 /* ListInteractor.swift */,
+				AEFA2E9521A3D015000828A4 /* ListRouter.swift */,
+				AEFA2E8F21A3CFD8000828A4 /* ListViewController.xib */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		AEFA2E8A21A3CF8D000828A4 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				AEFA2E9721A3D040000828A4 /* DetailViewController.swift */,
+				AEFA2E9B21A3D075000828A4 /* DetailPresenter.swift */,
+				AEFA2E9D21A3D07E000828A4 /* DetailInteractor.swift */,
+				AEFA2E9F21A3D08C000828A4 /* DetailRouter.swift */,
+				AEFA2E9921A3D069000828A4 /* DetailViewController.xib */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 		B4EF853ED07C6E18AF51C1A3 /* Pods */ = {
@@ -285,6 +339,8 @@
 			files = (
 				AEFA2E5A21A3CA0A000828A4 /* LaunchScreen.storyboard in Resources */,
 				AEFA2E5721A3CA0A000828A4 /* Assets.xcassets in Resources */,
+				AEFA2E9A21A3D069000828A4 /* DetailViewController.xib in Resources */,
+				AEFA2E9021A3CFD8000828A4 /* ListViewController.xib in Resources */,
 				AEFA2E5521A3CA09000828A4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,16 +467,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEFA2E8521A3CF25000828A4 /* CollectionExtension.swift in Sources */,
+				AEFA2E9821A3D040000828A4 /* DetailViewController.swift in Sources */,
 				AEFA2E5221A3CA09000828A4 /* ViewController.swift in Sources */,
 				AEFA2E8721A3CF49000828A4 /* SessionExtension.swift in Sources */,
 				AEFA2E7221A3CD95000828A4 /* Interactorable.swift in Sources */,
+				AEFA2EA021A3D08C000828A4 /* DetailRouter.swift in Sources */,
 				AEFA2E7421A3CDB0000828A4 /* Presenterable.swift in Sources */,
 				AEFA2E7F21A3CEAD000828A4 /* GitHubRepository.swift in Sources */,
+				AEFA2E9E21A3D07E000828A4 /* DetailInteractor.swift in Sources */,
 				AEFA2E5021A3CA09000828A4 /* AppDelegate.swift in Sources */,
 				AEFA2E7B21A3CE4C000828A4 /* GitHubRequest.swift in Sources */,
+				AEFA2E9621A3D015000828A4 /* ListRouter.swift in Sources */,
 				AEFA2E7821A3CDE2000828A4 /* Viewable.swift in Sources */,
+				AEFA2E9C21A3D075000828A4 /* DetailPresenter.swift in Sources */,
 				AEFA2E8321A3CF12000828A4 /* RxHelpers.swift in Sources */,
+				AEFA2E9421A3CFFE000828A4 /* ListPresenter.swift in Sources */,
+				AEFA2E9221A3CFEA000828A4 /* ListInteractor.swift in Sources */,
 				AEFA2E7621A3CDD0000828A4 /* Routerable.swift in Sources */,
+				AEFA2E8D21A3CFA7000828A4 /* ListViewController.swift in Sources */,
 				AEFA2E7D21A3CE74000828A4 /* GitHubApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
