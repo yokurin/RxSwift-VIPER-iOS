@@ -100,10 +100,7 @@
 			children = (
 				AEFA2E4F21A3CA09000828A4 /* AppDelegate.swift */,
 				AEFA2E5121A3CA09000828A4 /* ViewController.swift */,
-				AEFA2E5321A3CA09000828A4 /* Main.storyboard */,
-				AEFA2E5621A3CA0A000828A4 /* Assets.xcassets */,
-				AEFA2E5821A3CA0A000828A4 /* LaunchScreen.storyboard */,
-				AEFA2E5B21A3CA0A000828A4 /* Info.plist */,
+				AEFA2E6F21A3CD36000828A4 /* Resources */,
 			);
 			path = RxSwiftVIPER;
 			sourceTree = "<group>";
@@ -115,6 +112,17 @@
 				AEFA2E6621A3CA0A000828A4 /* Info.plist */,
 			);
 			path = RxSwiftVIPERTests;
+			sourceTree = "<group>";
+		};
+		AEFA2E6F21A3CD36000828A4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AEFA2E5321A3CA09000828A4 /* Main.storyboard */,
+				AEFA2E5621A3CA0A000828A4 /* Assets.xcassets */,
+				AEFA2E5821A3CA0A000828A4 /* LaunchScreen.storyboard */,
+				AEFA2E5B21A3CA0A000828A4 /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		B4EF853ED07C6E18AF51C1A3 /* Pods */ = {
@@ -506,7 +514,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BE69EUEJNJ;
-				INFOPLIST_FILE = RxSwiftVIPER/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RxSwiftVIPER/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -525,7 +533,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BE69EUEJNJ;
-				INFOPLIST_FILE = RxSwiftVIPER/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/RxSwiftVIPER/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
