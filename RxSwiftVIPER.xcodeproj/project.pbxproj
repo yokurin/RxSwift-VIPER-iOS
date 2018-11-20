@@ -22,6 +22,9 @@
 		AEFA2E7B21A3CE4C000828A4 /* GitHubRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFA2E7A21A3CE4C000828A4 /* GitHubRequest.swift */; };
 		AEFA2E7D21A3CE74000828A4 /* GitHubApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFA2E7C21A3CE74000828A4 /* GitHubApi.swift */; };
 		AEFA2E7F21A3CEAD000828A4 /* GitHubRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFA2E7E21A3CEAD000828A4 /* GitHubRepository.swift */; };
+		AEFA2E8321A3CF12000828A4 /* RxHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFA2E8221A3CF12000828A4 /* RxHelpers.swift */; };
+		AEFA2E8521A3CF25000828A4 /* CollectionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFA2E8421A3CF25000828A4 /* CollectionExtension.swift */; };
+		AEFA2E8721A3CF49000828A4 /* SessionExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFA2E8621A3CF49000828A4 /* SessionExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,9 @@
 		AEFA2E7A21A3CE4C000828A4 /* GitHubRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubRequest.swift; sourceTree = "<group>"; };
 		AEFA2E7C21A3CE74000828A4 /* GitHubApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubApi.swift; sourceTree = "<group>"; };
 		AEFA2E7E21A3CEAD000828A4 /* GitHubRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubRepository.swift; sourceTree = "<group>"; };
+		AEFA2E8221A3CF12000828A4 /* RxHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxHelpers.swift; sourceTree = "<group>"; };
+		AEFA2E8421A3CF25000828A4 /* CollectionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionExtension.swift; sourceTree = "<group>"; };
+		AEFA2E8621A3CF49000828A4 /* SessionExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionExtension.swift; sourceTree = "<group>"; };
 		CB29CF3B45FAFB14FB32995E /* Pods-RxSwiftVIPERTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftVIPERTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftVIPERTests/Pods-RxSwiftVIPERTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,6 +122,7 @@
 				AEFA2E5121A3CA09000828A4 /* ViewController.swift */,
 				AEFA2E7921A3CE1B000828A4 /* Apis */,
 				AEFA2E7021A3CD6B000828A4 /* Protocols */,
+				AEFA2E8121A3CEF5000828A4 /* Extensions */,
 				AEFA2E6F21A3CD36000828A4 /* Resources */,
 			);
 			path = RxSwiftVIPER;
@@ -168,6 +175,16 @@
 				AEFA2E7E21A3CEAD000828A4 /* GitHubRepository.swift */,
 			);
 			path = Entities;
+			sourceTree = "<group>";
+		};
+		AEFA2E8121A3CEF5000828A4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AEFA2E8221A3CF12000828A4 /* RxHelpers.swift */,
+				AEFA2E8421A3CF25000828A4 /* CollectionExtension.swift */,
+				AEFA2E8621A3CF49000828A4 /* SessionExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		B4EF853ED07C6E18AF51C1A3 /* Pods */ = {
@@ -393,13 +410,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEFA2E8521A3CF25000828A4 /* CollectionExtension.swift in Sources */,
 				AEFA2E5221A3CA09000828A4 /* ViewController.swift in Sources */,
+				AEFA2E8721A3CF49000828A4 /* SessionExtension.swift in Sources */,
 				AEFA2E7221A3CD95000828A4 /* Interactorable.swift in Sources */,
 				AEFA2E7421A3CDB0000828A4 /* Presenterable.swift in Sources */,
 				AEFA2E7F21A3CEAD000828A4 /* GitHubRepository.swift in Sources */,
 				AEFA2E5021A3CA09000828A4 /* AppDelegate.swift in Sources */,
 				AEFA2E7B21A3CE4C000828A4 /* GitHubRequest.swift in Sources */,
 				AEFA2E7821A3CDE2000828A4 /* Viewable.swift in Sources */,
+				AEFA2E8321A3CF12000828A4 /* RxHelpers.swift in Sources */,
 				AEFA2E7621A3CDD0000828A4 /* Routerable.swift in Sources */,
 				AEFA2E7D21A3CE74000828A4 /* GitHubApi.swift in Sources */,
 			);
