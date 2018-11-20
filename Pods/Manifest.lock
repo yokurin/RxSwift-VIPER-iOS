@@ -1,0 +1,51 @@
+PODS:
+  - Action (3.9.1):
+    - RxCocoa (~> 4.3)
+    - RxSwift (~> 4.3)
+  - APIKit (4.0.0):
+    - Result (~> 4.0)
+  - Result (4.0.0)
+  - RxAtomic (4.4.0)
+  - RxCocoa (4.4.0):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.4.0):
+    - RxAtomic (~> 4.4)
+  - RxTest (4.4.0):
+    - RxAtomic (~> 4.4)
+    - RxSwift (~> 4.0)
+  - RxWebKit (0.3.7):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+
+DEPENDENCIES:
+  - Action
+  - APIKit
+  - RxCocoa
+  - RxSwift
+  - RxTest
+  - RxWebKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Action
+    - APIKit
+    - Result
+    - RxAtomic
+    - RxCocoa
+    - RxSwift
+    - RxTest
+    - RxWebKit
+
+SPEC CHECKSUMS:
+  Action: 2f461c203c480b17aa99b3bb166e4329ecff6908
+  APIKit: 23ddce4be7eccd746d2ab3c62713cd80d5846d5a
+  Result: 7645bb3f50c2ce726dd0ff2fa7b6f42bbe6c3713
+  RxAtomic: eacf60db868c96bfd63320e28619fe29c179656f
+  RxCocoa: df63ebf7b9a70d6b4eeea407ed5dd4efc8979749
+  RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
+  RxTest: 19d03286bdc0a3aaea5d61d4cde31fdf4bb8a5ba
+  RxWebKit: e39e220919e5e24546c837f5f60689036a1e5920
+
+PODFILE CHECKSUM: 8c35cc8fd66d5f8f18f11f7b6631b6a1acb87735
+
+COCOAPODS: 1.5.3

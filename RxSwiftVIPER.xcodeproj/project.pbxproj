@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		013025358F3D6B69D9C90824 /* Pods_RxSwiftVIPER.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA69D83C867045C7EC1B3EF6 /* Pods_RxSwiftVIPER.framework */; };
+		7AC322259C9A02EDBBBFD3FF /* Pods_RxSwiftVIPERTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99073D3594D53D90D3078800 /* Pods_RxSwiftVIPERTests.framework */; };
 		AEFA2E5021A3CA09000828A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFA2E4F21A3CA09000828A4 /* AppDelegate.swift */; };
 		AEFA2E5221A3CA09000828A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEFA2E5121A3CA09000828A4 /* ViewController.swift */; };
 		AEFA2E5521A3CA09000828A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFA2E5321A3CA09000828A4 /* Main.storyboard */; };
@@ -26,6 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1713FF05068246091CB3FFA4 /* Pods-RxSwiftVIPERTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftVIPERTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftVIPERTests/Pods-RxSwiftVIPERTests.release.xcconfig"; sourceTree = "<group>"; };
+		18216377DB95EBC9928B1600 /* Pods-RxSwiftVIPER.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftVIPER.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftVIPER/Pods-RxSwiftVIPER.release.xcconfig"; sourceTree = "<group>"; };
+		320684B712A33C48856402BB /* Pods-RxSwiftVIPER.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftVIPER.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftVIPER/Pods-RxSwiftVIPER.debug.xcconfig"; sourceTree = "<group>"; };
+		99073D3594D53D90D3078800 /* Pods_RxSwiftVIPERTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftVIPERTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA69D83C867045C7EC1B3EF6 /* Pods_RxSwiftVIPER.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftVIPER.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEFA2E4C21A3CA09000828A4 /* RxSwiftVIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftVIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEFA2E4F21A3CA09000828A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEFA2E5121A3CA09000828A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +43,7 @@
 		AEFA2E6021A3CA0A000828A4 /* RxSwiftVIPERTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxSwiftVIPERTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEFA2E6421A3CA0A000828A4 /* RxSwiftVIPERTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwiftVIPERTests.swift; sourceTree = "<group>"; };
 		AEFA2E6621A3CA0A000828A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB29CF3B45FAFB14FB32995E /* Pods-RxSwiftVIPERTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftVIPERTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftVIPERTests/Pods-RxSwiftVIPERTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				013025358F3D6B69D9C90824 /* Pods_RxSwiftVIPER.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AC322259C9A02EDBBBFD3FF /* Pods_RxSwiftVIPERTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A6E8CF1B8087EAC6C9767119 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA69D83C867045C7EC1B3EF6 /* Pods_RxSwiftVIPER.framework */,
+				99073D3594D53D90D3078800 /* Pods_RxSwiftVIPERTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AEFA2E4321A3CA09000828A4 = {
 			isa = PBXGroup;
 			children = (
 				AEFA2E4E21A3CA09000828A4 /* RxSwiftVIPER */,
 				AEFA2E6321A3CA0A000828A4 /* RxSwiftVIPERTests */,
 				AEFA2E4D21A3CA09000828A4 /* Products */,
+				B4EF853ED07C6E18AF51C1A3 /* Pods */,
+				A6E8CF1B8087EAC6C9767119 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +117,17 @@
 			path = RxSwiftVIPERTests;
 			sourceTree = "<group>";
 		};
+		B4EF853ED07C6E18AF51C1A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				320684B712A33C48856402BB /* Pods-RxSwiftVIPER.debug.xcconfig */,
+				18216377DB95EBC9928B1600 /* Pods-RxSwiftVIPER.release.xcconfig */,
+				CB29CF3B45FAFB14FB32995E /* Pods-RxSwiftVIPERTests.debug.xcconfig */,
+				1713FF05068246091CB3FFA4 /* Pods-RxSwiftVIPERTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +135,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEFA2E6921A3CA0A000828A4 /* Build configuration list for PBXNativeTarget "RxSwiftVIPER" */;
 			buildPhases = (
+				95147BB8627A39856C38A6E9 /* [CP] Check Pods Manifest.lock */,
 				AEFA2E4821A3CA09000828A4 /* Sources */,
 				AEFA2E4921A3CA09000828A4 /* Frameworks */,
 				AEFA2E4A21A3CA09000828A4 /* Resources */,
+				61D1B0C8AAF6CB9CA0ABDB50 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,9 +154,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEFA2E6C21A3CA0A000828A4 /* Build configuration list for PBXNativeTarget "RxSwiftVIPERTests" */;
 			buildPhases = (
+				0802BD84392B9AB662D04D1A /* [CP] Check Pods Manifest.lock */,
 				AEFA2E5C21A3CA0A000828A4 /* Sources */,
 				AEFA2E5D21A3CA0A000828A4 /* Frameworks */,
 				AEFA2E5E21A3CA0A000828A4 /* Resources */,
+				BC81A33D2E1CF82923A83F09 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -191,6 +227,113 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0802BD84392B9AB662D04D1A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSwiftVIPERTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61D1B0C8AAF6CB9CA0ABDB50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftVIPER/Pods-RxSwiftVIPER-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/APIKit/APIKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Action/Action.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxWebKit/RxWebKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/APIKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Action.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxWebKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftVIPER/Pods-RxSwiftVIPER-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95147BB8627A39856C38A6E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSwiftVIPER-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC81A33D2E1CF82923A83F09 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftVIPERTests/Pods-RxSwiftVIPERTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftVIPERTests/Pods-RxSwiftVIPERTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AEFA2E4821A3CA09000828A4 /* Sources */ = {
@@ -358,6 +501,7 @@
 		};
 		AEFA2E6A21A3CA0A000828A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 320684B712A33C48856402BB /* Pods-RxSwiftVIPER.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -376,6 +520,7 @@
 		};
 		AEFA2E6B21A3CA0A000828A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18216377DB95EBC9928B1600 /* Pods-RxSwiftVIPER.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -394,6 +539,7 @@
 		};
 		AEFA2E6D21A3CA0A000828A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB29CF3B45FAFB14FB32995E /* Pods-RxSwiftVIPERTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -415,6 +561,7 @@
 		};
 		AEFA2E6E21A3CA0A000828A4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1713FF05068246091CB3FFA4 /* Pods-RxSwiftVIPERTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
