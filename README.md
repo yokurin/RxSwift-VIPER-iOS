@@ -60,7 +60,7 @@ Adopted Delegate Pattern. Not use RxSwift
 ### [yokurin/Swift-MVCR-iOS](https://github.com/yokurin/Swift-MVCR-iOS)
 SwiftMVCR is an sample iOS App written in Swift using the MVCR architecture. (Model, View, Controller, Router)
 Adopted Delegate Pattern. Not use RxSwift
-<img src="https://github.com/yokurin/Swift-VIPER-iOS/blob/master/READMEResources/diagram.jpg">
+<img src="https://github.com/yokurin/Swift-MVCR-iOS/blob/master/READMEResources/diagram.jpg">
 
 
 ## Author
